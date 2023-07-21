@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/mavryck/static/css/main.e96c1413.css",
+    "main.js": "/mavryck/static/js/main.752a0f42.js",
+    "static/css/55.001f2dce.chunk.css": "/mavryck/static/css/55.001f2dce.chunk.css",
+    "static/js/55.359011aa.chunk.js": "/mavryck/static/js/55.359011aa.chunk.js",
+    "static/css/345.40864ad5.chunk.css": "/mavryck/static/css/345.40864ad5.chunk.css",
+    "static/js/345.be31e688.chunk.js": "/mavryck/static/js/345.be31e688.chunk.js",
+    "static/css/416.f760db59.chunk.css": "/mavryck/static/css/416.f760db59.chunk.css",
+    "static/js/416.9941bcff.chunk.js": "/mavryck/static/js/416.9941bcff.chunk.js",
+    "static/js/251.400bc25d.chunk.js": "/mavryck/static/js/251.400bc25d.chunk.js",
+    "static/media/Roboto-Medium.woff2": "/mavryck/static/media/Roboto-Medium.70ace3870f471997ceb7.woff2",
+    "static/media/Roboto-Bold.woff2": "/mavryck/static/media/Roboto-Bold.002079d85a6f27587d17.woff2",
+    "static/media/Roboto-Regular.woff2": "/mavryck/static/media/Roboto-Regular.9429985be4f46ec8fcfc.woff2",
+    "static/media/Roboto-Light.woff2": "/mavryck/static/media/Roboto-Light.81c7589f0813d50a673e.woff2",
+    "static/media/Michroma-Regular.woff2": "/mavryck/static/media/Michroma-Regular.c24e20fa64e2f0c8aad5.woff2",
+    "static/media/Microgramma-D-Extended-Bold.woff2": "/mavryck/static/media/Microgramma-D-Extended-Bold.723bcd549ffd98b7a34c.woff2",
+    "index.html": "/mavryck/index.html",
+    "main.e96c1413.css.map": "/mavryck/static/css/main.e96c1413.css.map",
+    "main.752a0f42.js.map": "/mavryck/static/js/main.752a0f42.js.map",
+    "55.001f2dce.chunk.css.map": "/mavryck/static/css/55.001f2dce.chunk.css.map",
+    "55.359011aa.chunk.js.map": "/mavryck/static/js/55.359011aa.chunk.js.map",
+    "345.40864ad5.chunk.css.map": "/mavryck/static/css/345.40864ad5.chunk.css.map",
+    "345.be31e688.chunk.js.map": "/mavryck/static/js/345.be31e688.chunk.js.map",
+    "416.f760db59.chunk.css.map": "/mavryck/static/css/416.f760db59.chunk.css.map",
+    "416.9941bcff.chunk.js.map": "/mavryck/static/js/416.9941bcff.chunk.js.map",
+    "251.400bc25d.chunk.js.map": "/mavryck/static/js/251.400bc25d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e96c1413.css",
+    "static/js/main.752a0f42.js"
+  ]
+}
