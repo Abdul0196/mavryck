@@ -10,7 +10,8 @@
     background-color: #eee;
     border-radius: 10px;
     filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.10));
-    min-width: 190px;
+    /* min-width: 190px; */
+    min-width: 250px;
     padding: .5rem 0;
     z-index: 1;
 }

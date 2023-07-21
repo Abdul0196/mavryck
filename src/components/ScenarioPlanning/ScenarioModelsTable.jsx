@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, useMemo, useCallback} from 'react';
+import React, { useState, useRef, useEffect, useMemo, useCallback, memo} from 'react';
 import { Link } from 'react-router-dom';
 import { AgGridReact } from 'ag-grid-react'; // the AG Grid React Component
 
@@ -340,4 +340,4 @@ const ScenarioModelsTable = () => {
     )
 };
 
-export default ScenarioModelsTable;
+export default memo(ScenarioModelsTable);

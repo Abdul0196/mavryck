@@ -1,5 +1,5 @@
 // import { Logo } from "./images/products/projectManager.svg"
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Breadcrumb from "../components/UI/Breadcrumb";
 import ScenarioModelsTable from "../components/ScenarioPlanning/ScenarioModelsTable";
@@ -8,11 +8,15 @@ import "./ScenarioPlanning.css";
 import "../components/UI/DataGridCustomTheme.css"
 
 
-const ScenarioPlanning = () => {
+const ScenarioPlanning = (props) => {
+    console.log("run")
     const [dd_visible, setdd_visible] = useState(false);
-    const dropdownBtnClickHandler = () => {
-        setdd_visible(!dd_visible)
-    }
+    // const dropdownBtnClickHandler = () => {
+    //     setdd_visible(!dd_visible)
+    // }
+    const dropdownBtnClickHandler = useCallback(() => {
+        setdd_visible((prevVisible) => !prevVisible);
+      }, []);
     const breadcrumb = [
         {
             "title": "Project Manager",

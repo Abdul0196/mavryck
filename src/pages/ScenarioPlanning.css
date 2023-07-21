@@ -23,3 +23,9 @@ body {
     border-radius: 20px;
     width: 100px;
 }
+
+.ag-cell[col-id="description"],
+.ag-cell[col-id="created"],
+.ag-cell[col-id="progress"] {
+    color: #5E5E5E;
+}
