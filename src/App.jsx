@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Suspense fallback={<div className='main-loader'><img src={`${process.env.REACT_APP_PUBLIC_HOST}/images/logo.png`} alt="Mavryck" /></div>}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/mavryck" element={<Home />} />
           <Route path="/scenarioplanning" element={<ScenarioPlanning />} />
           <Route path="/scenarioplanning/:id" element={<SingleScenario />} />
         </Routes>
