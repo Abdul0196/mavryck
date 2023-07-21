@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../public/fonts/Roboto-Light.woff2) format('woff2');
+  font-weight: 300;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Roboto';
+  src: url(../public/fonts/Roboto-Regular.woff2) format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../public/fonts/Roboto-Medium.woff2) format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../public/fonts/Roboto-Bold.woff2) format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Michroma';
+  src: url(../public/fonts/Michroma-Regular.woff2) format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Microgramma';
+  src: url(../public/fonts/Microgramma-D-Extended-Bold.woff2) format('woff2');
+  font-weight: 700;
+}
+
+/* main loader */
+.main-loader {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.main-loader img {
+  /* width: 200px; */
+}
+/* main loader */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  color: #5E5E5E;
+  overflow-x: hidden;
+}
+
+input, select {
+  outline: none !important;
+}
+
+.content {
+  padding: 30px 30px 30px 100px;
+}
+
+#sidebarTooltip {
+  line-height: 1;
+  font-size: 12px;
+}
+
+.badge {
+  padding: 5px 10px;
+  background-color: #ccc;
+  border-radius: 20px;
+}
+
+.badge-success {
+  color: #47DEC3;
+  background-color: RGBA(71, 222, 195, 0.3) !important;
+}
+
+.badge-danger {
+  color: #FF5840;
+  background-color: RGBA(255, 88, 64, 0.3) !important;
 }

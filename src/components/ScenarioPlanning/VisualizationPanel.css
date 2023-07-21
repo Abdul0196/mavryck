@@ -1,0 +1,117 @@
+#sidebar.visualization :where(h2, h3) {
+    color: #000000;
+}
+#sidebar.visualization {
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    width: 390px;
+    z-index: 9999;
+    text-align: center;
+    box-shadow: 0 0 10px 5px #00000012;
+    overflow: auto;
+    min-height: 100vh;
+    height: 100%;
+    transform: translateX(400px);
+    transition: 0.2s ease-in-out;
+}
+#sidebar.visualization.open {
+    transform: translateX(0);
+}
+
+#sidebar.visualization .close {
+    left: 40px;
+    top: 70px;
+    opacity: 1;
+}
+#sidebar.visualization .close img {
+    transform: scale(-1);
+    width: 25px;
+}
+#sidebar.visualization h2 {
+    font-size: 25px;
+}
+#sidebar.visualization h3 {
+    font-size: 14px;
+}
+#sidebar.visualization .input-group {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 #00000012;
+    align-items: center;
+    width: 160px;
+}
+#sidebar.visualization .input-group .input-group-prepend {
+    width: 30px;
+    font-size: 20px;
+    color: #000;
+}
+#sidebar.visualization .input-group input {
+    border: 0;
+    background: transparent;
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+    box-shadow: none !important;
+    font-size: 14px;
+    height: 40px;
+    flex: 1;
+    width: 100%;
+    padding-right: 10px;
+}
+#sidebar.visualization :where(.flds, .versions) {
+    border-bottom: 1px solid #000;
+}
+#sidebar.visualization .flds p svg {
+    font-size: 20px;
+    color: #000;
+}
+#sidebar.visualization .flds p label {
+    color: #464A53;
+    font-size: 14px;
+}
+#sidebar.visualization .flds p label img {
+    width: 20px;
+}
+#sidebar.visualization .flds ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 120px;
+    color: #464A53;
+    font-size: 14px;
+}
+#sidebar.visualization :where(.flds, .versions, .comparison) ul li label {
+    margin-bottom: .5rem;
+    display: block;
+}
+#sidebar.visualization :where(.versions, .comparison) ul {
+    text-align: left;
+    list-style: none;
+    color: #464A53;
+    font-size: 14px;
+}
+
+#ComparisonSelect {
+    width: 170px;
+    margin: 0 auto;
+    text-align: left;
+}
+#ComparisonSelect :where(.css-13cymwt-control, .css-t3ipsp-control) {
+    background: #E0EBFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 0;
+    font-size: 14px;
+    height: 40px;
+}
+#ComparisonSelect .css-13cymwt-control .css-1fdsijx-ValueContainer {
+    padding: 0 8px;
+}
+#ComparisonSelect .css-13cymwt-control .css-1hb7zxy-IndicatorsContainer .css-tj5bde-Svg {
+    color: #464A53;
+}
+#ComparisonSelect .css-13cymwt-control .css-1hb7zxy-IndicatorsContainer .css-1u9des2-indicatorSeparator {
+    display: none;
+}
+#ComparisonSelect #react-select-2-listbox {
+    background: #E0EBFF;
+    border-radius: 10px;
+}

@@ -1,0 +1,9 @@
+.ag-cell[col-id="durationInP6"] {
+    color: #4C4DFF;
+}
+.ag-cell[col-id="durationInAssumptions"] {
+    color: #FFC662;
+}
+.ag-cell[col-id="durationInContract"] {
+    color: #47DEC3;
+}

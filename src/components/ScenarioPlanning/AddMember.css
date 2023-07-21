@@ -1,0 +1,18 @@
+.addMem-lkDs .members .avatar {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #4c4dff;
+    box-sizing: border-box;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-right: -8px;
+}
+.addMem-lkDs .members .avatar img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+}
+.addMem-lkDs .members #addMember {
+    font-size: 22px;
+    height: 25px;
+}

@@ -1,0 +1,21 @@
+.breadcrumb {
+    gap: 0 5px;
+}
+.breadcrumb li {
+    font-size: 12px;
+    font-weight: 400;
+    gap: 0 5px;
+    align-items: center;
+}
+.breadcrumb li img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.breadcrumb li svg {
+    font-size: 17px;
+    color: #5E5E5E;
+}
+.breadcrumb li:not(.current) {
+    color: #155CDE;
+}

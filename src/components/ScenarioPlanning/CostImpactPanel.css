@@ -1,0 +1,88 @@
+#costImpactPanel {
+    color: #212529;
+    bottom: 0;
+    left: 70px;
+    right: 0;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+    z-index: 1;
+    transform: translateY(285px);
+    transition: 0.2s ease-in-out;
+}
+#costImpactPanel.open {
+    transform: translateY(0);
+}
+#costImpactPanel .head {
+    background-color: #E7E7E7;
+    padding-block: 8px;
+    border-radius: 10px 10px 0 0;
+}
+#costImpactPanel .head h2 {
+    font-size: 20px;
+}
+#costImpactPanel .head .close {
+    gap: 0 5px;
+}
+#costImpactPanel .head .close svg {
+    font-size: 20px;
+}
+#costImpactPanel .head button.costImpact {
+    font-size: 12px;
+    border-radius: 10px;
+}
+#costImpactPanel h4 {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#costImpactPanel span.status {
+    display: block;
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+    padding: 3px 8px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+#costImpactPanel .delayed span.status {
+    background-color: #FFEBE1;
+    color: #ED7D43;
+}
+#costImpactPanel .onTime span.status {
+    background-color: #D3EFE0;
+    color: #22AD65;
+}
+#costImpactPanel .notStarted span.status {
+    background-color: #FBF8DA;
+    color: #FFC662;
+}
+#costImpactPanel p {
+    font-size: 14px;
+    color: #79869F;
+    margin-bottom: 10px;
+}
+#costImpactPanel h5 {
+    font-size: 24px;
+    color: #0F3F62;
+    margin-bottom: 20px;
+}
+#costImpactPanel h5 span {
+    min-width: 100px;
+    display: inline-block;
+}
+#costImpactPanel .delayed h5 sub {
+    color: #E96363;
+}
+#costImpactPanel .onTime h5 sub {
+    color: #52AA43;
+}
+#costImpactPanel .notStarted h5 sub {
+    color: #FFC662;
+}
+#costImpactPanel .splineChart img {
+    transform: translateY(48px);
+    transition: 0.4s ease-in;
+}
+#costImpactPanel.open img {
+    transform: translateY(0);
+}

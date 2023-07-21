@@ -1,0 +1,127 @@
+.ag-theme-alpine {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #464A53;
+}
+.ag-theme-alpine .ag-row {
+    border: 0;
+    /* padding-bottom: 8px; */
+    background: transparent;
+    /* box-sizing: content-box; */
+}
+.ag-root-wrapper {
+    border: 0;
+    background: transparent;
+}
+.ag-header {
+    background-color: #fff;
+    border-bottom: 0;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px 0 #0000000a;
+    border-radius: 5px;
+}
+.ag-theme-alpine .ag-header-row {
+    font-weight: 600;
+}
+.ag-cell {
+    border: 0;
+    padding-block: 6px;
+    background-color: #fff;
+    /* height: calc(100% - 8px); */
+}
+
+
+/* .tabulator[role="grid"] {
+    max-height: calc(100vh - 124px);
+    height: 100% !important;
+    background: transparent;
+}
+
+.tabulator[role="grid"] .tabulator-header {
+    border: 0;
+    margin: 0 0 15px 0 !important;
+    box-shadow: 0 2px 5px 0 #0000000a;
+    border-radius: 5px;
+}
+
+.tabulator[role="grid"] .tabulator-header .tabulator-headers {
+    border-radius: 5px !important;
+    height: auto !important;
+}
+
+.tabulator[role="grid"] .tabulator-header .tabulator-col {
+    height: auto !important;
+    vertical-align: middle;
+    border: 0;
+    background: transparent !important;
+}
+
+.tabulator[role="grid"] .tabulator-header .tabulator-col .tabulator-col-content {
+    padding: 16px 15px;
+}
+.tabulator[role="grid"] .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title-holder {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tabulator[role="grid"] .tabulator-header .tabulator-col.tabulator-sortable .tabulator-col-title {
+    padding-right: 10px;
+    width: fit-content;
+    color: #000;
+}
+.tabulator[role="grid"] .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-sorter {
+    position: relative;
+    align-items: unset;
+    right: 0;
+}
+.tabulator[role="grid"] .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-sorter .tabulator-arrow {
+    width: 8px;
+    height: 8px;
+    border: 2px solid #4C4DFF !important;
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+    transform: rotate(45deg);
+    margin-top: 4px;
+}
+
+.tabulator[role="grid"] .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-sorter::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border: 2px solid #4C4DFF;
+    position: absolute;
+    bottom: 3px;
+    transform: rotate(45deg);
+    border-left: 0;
+    border-top: 0;
+}
+.tabulator[role="grid"] .tabulator-header .tabulator-col:last-child .tabulator-col-content {
+    text-align: right;
+}
+.tabulator[role="grid"] .tabulator-tableholder {
+    min-height: calc(100% - 210px) !important;
+    height: calc(100% - 210px) !important;
+    max-height: 716px !important;
+}
+.tabulator[role="grid"] .tabulator-tableholder .tabulator-table {
+    background: transparent;
+    width: 100%;
+}
+.tabulator[role="grid"] .tabulator-row {
+    border: 0;
+    margin-bottom: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 #0000000a;
+    border-radius: 5px;
+}
+.tabulator[role="grid"] .tabulator-row:nth-child(2n+2) {
+    background-color: #FAFAFA;
+}
+.tabulator[role="grid"] .tabulator-row.tabulator-selectable:hover {
+    background-color: #e8e8e8;
+}
+.tabulator[role="grid"] .tabulator-row .tabulator-cell {
+    padding: 11px 15px;
+    height: auto !important;
+    border: 0;
+} */

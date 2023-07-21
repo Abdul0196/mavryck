@@ -1,0 +1,30 @@
+.subsNotify {
+    width: 440px;
+    left: 0;
+    right: 0;
+    top: -116px;
+    text-align: center;
+    padding: 10px 20px 20px;
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+    background-color: #5D5EFF;
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+}
+.subsNotify.show {
+    top: 0;
+    display: block !important;
+}
+.subsNotify .close {
+    float: right;
+    color: #EB4335EB;
+    font-size: 1.5rem;
+}
+.subsNotify img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.subsNotify p {
+    font-size: 12px;
+}

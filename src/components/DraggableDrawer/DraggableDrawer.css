@@ -1,0 +1,50 @@
+#comparisionGrid,
+#ganttChartContainer {
+  position: absolute;
+  top: 145px;
+  right: calc(-100vw + 112px);
+  width: calc(100% - 80px);
+  min-height: calc(100vh - 180px);
+  box-shadow: 0 0 5px 0 #00000021;
+  opacity: 0;
+}
+#comparisionGrid.show, #ganttChartContainer.show {
+  z-index: 91;
+  opacity: 1;
+}
+#comparisionGrid .flxBox, #ganttChartContainer .flxBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+#comparisionGrid .flxBox .sidehandler,
+#ganttChartContainer .flxBox .sidehandler {
+    width: 32px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #BABFCE;
+    align-items: center;
+    padding: 10px 0;
+    cursor: grab;
+}
+#comparisionGrid .flxBox .sidehandler p, #ganttChartContainer .flxBox .sidehandler p {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin: 0;
+  font-size: 14px;
+  color: #464A53;
+}
+#comparisionGrid .flxBox .sidehandler svg {
+    border: 0;
+    background: transparent;
+    font-size: 24px;
+    color: #464A53;
+}
+#comparisionGrid .flxBox #comparisonGrid_wrapper,
+#ganttChartContainer .flxBox .ganttAndToolbar {
+    flex: 1;
+    min-height: calc(100vh - 180px);
+    max-height: calc(100vh - 180px);
+    background-color: #E3E7E9;
+}

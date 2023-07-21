@@ -1,0 +1,25 @@
+body {
+    background-color: #F3FAFF;
+}
+.dropdown .dd-menu {
+    background-color: #E0EBFF;
+    top: calc(100% + 5px);
+}
+.dd-menu label {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 10px;
+    padding: 0 15px 10px;
+    border-bottom: 1px solid #000;
+    margin: 0 0 10px;
+}
+.dd-menu .btn {
+    display: block;
+    padding: 4px 10px;
+    margin: 0 auto;
+    background-color: #5657ff;
+    color: #fff;
+    border-radius: 20px;
+    width: 100px;
+}
