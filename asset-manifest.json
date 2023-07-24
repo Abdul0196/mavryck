@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mavryck/static/css/main.e96c1413.css",
-    "main.js": "/mavryck/static/js/main.85a44e7e.js",
+    "main.js": "/mavryck/static/js/main.57aa0e68.js",
     "static/css/55.001f2dce.chunk.css": "/mavryck/static/css/55.001f2dce.chunk.css",
     "static/js/55.069c0716.chunk.js": "/mavryck/static/js/55.069c0716.chunk.js",
     "static/css/345.40864ad5.chunk.css": "/mavryck/static/css/345.40864ad5.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/Microgramma-D-Extended-Bold.woff2": "/mavryck/static/media/Microgramma-D-Extended-Bold.723bcd549ffd98b7a34c.woff2",
     "index.html": "/mavryck/index.html",
     "main.e96c1413.css.map": "/mavryck/static/css/main.e96c1413.css.map",
-    "main.85a44e7e.js.map": "/mavryck/static/js/main.85a44e7e.js.map",
+    "main.57aa0e68.js.map": "/mavryck/static/js/main.57aa0e68.js.map",
     "55.001f2dce.chunk.css.map": "/mavryck/static/css/55.001f2dce.chunk.css.map",
     "55.069c0716.chunk.js.map": "/mavryck/static/js/55.069c0716.chunk.js.map",
     "345.40864ad5.chunk.css.map": "/mavryck/static/css/345.40864ad5.chunk.css.map",
@@ -28,6 +28,6 @@
   },
   "entrypoints": [
     "static/css/main.e96c1413.css",
-    "static/js/main.85a44e7e.js"
+    "static/js/main.57aa0e68.js"
   ]
 }
